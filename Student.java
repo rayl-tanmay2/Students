@@ -54,6 +54,12 @@ class Student {
  public void setCGPA(double cgpa) {
   this.cgpa = cgpa;
  }
+ public void display() {
+  System.out
+    .println(
+      "Student Name: " + name + "\nPRN: " + prn + "\nBranch: " + branch + "\nBatch: " + batch + "\nCGPA: " + cgpa);
+ }
+
 
 
 }
