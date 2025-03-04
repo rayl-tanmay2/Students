@@ -25,4 +25,13 @@ public StudentOperations() {
   }
   return null;
  }
+  // Search Student by Name
+ public Student searchByName(String name) {
+  for (Student student : students) {
+   if (student.getName().equalsIgnoreCase(name)) {
+    return student;
+   }
+  }
+  return null;
+ }
 }
